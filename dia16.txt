@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+class HelloWorld
+{
+    public static void main(String[] args) 
+    {
+        Scanner ler = new Scanner(System.in);
+        int sala1, sala2, sala3, sala4, sala5, sala6;
+        int n = 6;
+        
+        System.out.println("Digite a quantidade de alunos da primeira sala ");
+        sala1 = ler.nextInt();
+        
+         System.out.println("Digite o numero de alunos na sala2 ");
+        sala2 = ler.nextInt();
+        
+         System.out.println("Digite o numero de alunos na sala3 ");
+        sala3 = ler.nextInt();
+        
+         System.out.println("Digite o numero de alunos na sala4 ");
+        sala4 = ler.nextInt();
+        
+         System.out.println("Digite o numero de alunos na sala5 ");
+        sala5 = ler.nextInt();
+        
+         System.out.println("Digite o numero de alunos na sala6 ");
+        sala6 = ler.nextInt();
+        
+        int Soma = (((sala1+sala2+sala3+sala4+sala5+sala6)/n));
+        int Q [] = {sala1,sala2,sala3,sala4,sala5,sala6};
+        Soma = Soma;
+    
+        System.out.println("A media e: " +Soma);
+    }
+    if (Soma >= 24)
+    {
+        System.out.println("A sala com o menor numero de alunos e: %d");
+    }
+}
